@@ -1,5 +1,5 @@
 {
-	"API_KEY": "sua chave key aqui",
+	"API_KEY": "${API_KEY}",
 	"display_avatar_in_chat": true,
 	"use_php_api": false,
 	"filter_badwords": true,

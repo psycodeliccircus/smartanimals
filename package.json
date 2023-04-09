@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/psycodeliccircus/smartanimals/issues"
   },
-  "homepage": "https://github.com/psycodeliccircus/smartanimals#readme"
+  "homepage": "https://github.com/psycodeliccircus/smartanimals#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
