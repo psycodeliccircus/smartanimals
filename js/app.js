@@ -1,6 +1,5 @@
 /*/ Not change any values of the variables below, 
 use the "json/config.json" file to make your settings. /*/
-require('dotenv').config();
 $(document).foundation();
 let API_KEY = "";
 let data_index = "";
