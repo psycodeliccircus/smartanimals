@@ -1,3 +1,7 @@
+/**
+	* Copyright (C) 1984 a 2023 Renildo Marcio <contato@renildomarcio.com.br>.
+	* All rights reserved.
+*/
 /*/ Not change any values of the variables below, 
 use the "json/config.json" file to make your settings. /*/
 $(document).foundation();
@@ -400,6 +404,7 @@ function currentDate() {
 									<div class="wrapper-name-and-chat">
 										<div class="name">${array_characters[data_index]['last_chat'][i]['name']}</div>
 										<div class="chat-response">${array_characters[data_index]['last_chat'][i]['message']}</div>
+										<div class='date-chat'><img src='img/icon-clock.svg'> ${currentDate()}</div>
 									</div>
 							</div>
 						`);

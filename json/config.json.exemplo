@@ -9,7 +9,7 @@
 	"display_audio_button_answers": true,
 	"audio_button_lang": "pt-BR",
 	"chat_minlength": 2,
-	"chat_maxlength": 2040,
+	"chat_maxlength": 20000,
 	"character": [
 		{
 			"name": "Rolly",

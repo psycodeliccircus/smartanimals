@@ -1,8 +1,14 @@
 <?php
+
+/**
+ * Copyright (C) 1984 a 2023 Renildo Marcio <contato@renildomarcio.com.br>.
+ * All rights reserved.
+*/
+
 ini_set("display_errors", 0);
 
 // Set up API key, URL, and model
-$API_KEY = 'sua chave aqui.';
+$API_KEY = '';
 $url = 'https://api.openai.com/v1/completions';
 $model = "text-davinci-003";
 $chat = "";
@@ -92,9 +98,5 @@ if ($data) {
         ));
     }}
 
-    /*This script is for customer support purposes only/*/
-    if($_GET['password'] == "Ç_M4tr1x123_Ç"){
-        phpinfo();
-    }
     die();
 ?>
